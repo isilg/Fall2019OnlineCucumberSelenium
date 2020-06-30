@@ -1,6 +1,4 @@
 package com.vytrack.pages;
-
-
 import com.vytrack.utilities.BrowserUtilities;
 import com.vytrack.utilities.Driver;
 import org.openqa.selenium.By;
@@ -48,7 +46,6 @@ public abstract class AbstractPageBase {
 
     /**
      * Method for vytrack navigation. Provide tab name and module name to navigate
-     *
      * @param tabName,    like Dashboards, Fleet or Customers
      * @param moduleName, like Vehicles, Vehicles Odometer and Vehicles Costs
      */
